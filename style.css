@@ -1,0 +1,47 @@
+.box {
+    align-items: center;
+    background-color: #ccc;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.box .box-1 {
+    background-color: #675;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.box .box-2 {
+    background-color: #40a;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.box .box-3 {
+    background-color: #aa6;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.box .selected {
+    background-color: #e56;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 40px;
+}
